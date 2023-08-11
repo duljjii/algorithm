@@ -12,7 +12,7 @@ class Solution {
         if(lst.size() == 0){
             lst.add(-1);
         }
-        lst.sort((a, b) -> a-b);
+lst.sort(Comparator.comparing((Integer a) -> a));
         
         int[] answer = lst.stream().mapToInt(i->i.intValue()).toArray();
         
