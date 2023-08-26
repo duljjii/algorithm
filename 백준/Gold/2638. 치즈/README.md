@@ -4,7 +4,7 @@
 
 ### 성능 요약
 
-메모리: 34244 KB, 시간: 956 ms
+메모리: 116756 KB, 시간: 212 ms
 
 ### 분류
 
@@ -20,11 +20,11 @@
 
 <p><그림 2>와 같이 치즈 내부에 있는 공간은 치즈 외부 공기와 접촉하지 않는 것으로 가정한다. 그러므 로 이 공간에 접촉한 치즈 격자는 녹지 않고 C로 표시된 치즈 격자만 사라진다. 그러나 한 시간 후, 이 공간으로 외부공기가 유입되면 <그림 3>에서와 같이 C로 표시된 치즈 격자들이 사라지게 된다.</p>
 
-<p style="text-align: center;"><img alt="" src="https://upload.acmicpc.net/e5d519ee-53ea-40a6-b970-710cca0db128/-/preview/" style="width: 208px; height: 171px;"></p>
+<p style="text-align: center;"><img alt="" src="" style="width: 208px; height: 171px;"></p>
 
 <p style="text-align: center;"><그림 2></p>
 
-<p style="text-align: center;"><img alt="" src="https://upload.acmicpc.net/a00b876a-86dc-4a82-a030-603a9b1593cc/-/preview/" style="width: 208px; height: 171px;"></p>
+<p style="text-align: center;"><img alt="" src="" style="width: 208px; height: 171px;"></p>
 
 <p style="text-align: center;"><그림 3></p>
 

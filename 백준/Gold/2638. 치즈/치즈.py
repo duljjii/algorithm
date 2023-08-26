@@ -28,10 +28,8 @@ def bfs():
 
 
 def c_bfs(r, c):
-    global c_visited
+    c_visited = [[False] * C for _ in range(R)]
     c_q = deque([(r, c)])
-    if c_visited[r][c] == True :
-        return
     c_visited[r][c] = True
 
     while c_q:
@@ -49,12 +47,18 @@ def c_bfs(r, c):
             q.append((r, c))
 day = 0
 while bfs() :
-    c_visited = [[False] * C for _ in range(R)]
     for i in range(R):
         for j in range(C):
             cnt = 0
             if board[i][j] == 1 :
-                c_bfs(i, j)
+                for d in range(4):
+                    ni = i + dr[d]
+                    nj = j + dc[d]
+                    if 0 <= ni < R and 0 <= nj < C and board[ni][nj] == 3:
+                        cnt += 1
+                        if cnt == 2 :
+                            q.append((i, j))
+                            break
     day += 1
 
 print(day-1)
